@@ -1,0 +1,17 @@
+.app-main {
+  height: 100%;
+}
+.sidenav-and-main {
+  display: grid;
+  grid-template-rows: 25%;
+  grid-template-columns: 19% 1.8% 26.4% 26.4% 26.4%;
+  height: inherit;
+  /* width: fit-content; */
+}
+@media screen and (max-width: 400px) {
+  .sidenav-and-main {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+  }
+}

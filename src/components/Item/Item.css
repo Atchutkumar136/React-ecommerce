@@ -1,0 +1,39 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: fit-content;
+  padding: 10px;
+  position: relative;
+}
+img {
+  height: 100px;
+  width: 118px;
+}
+.item-price {
+  font-weight: 700;
+  font-size: 20px;
+}
+.item-name {
+  font-weight: 600;
+  font-size: 18px;
+}
+.item-quantity {
+  font-weight: 600;
+  font-size: 16px;
+  color: #b6bac3;
+}
+.add-item {
+  height: 42px;
+  width: 42px;
+  background-color: #40d589;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  cursor: pointer;
+  position: absolute;
+  margin-left: 75px;
+  margin-top: 60px;
+}

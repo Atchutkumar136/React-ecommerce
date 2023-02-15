@@ -1,0 +1,108 @@
+.sidenav-container {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 5;
+  width: 100%;
+  height: calc(100vh - 91px);
+  position: relative;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin-top: 21px;
+}
+
+.category-list {
+  list-style: none;
+  padding: 0px 20px 10px 20px;
+  margin: 0px;
+}
+.category-list li {
+  height: 42px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  font-weight: 800;
+  font-size: 16px;
+  color: #737d94;
+  font-family: 'Muli';
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.category-list li.selected {
+  background-color: #5da9e9;
+  color: white;
+}
+.sidenav-container::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+.sidenav-container::-webkit-scrollbar-track {
+  background: #ededed;
+}
+
+/* Handle */
+.sidenav-container::-webkit-scrollbar-thumb {
+  background: #5da9e9;
+  border-radius: 4px;
+}
+
+/* Handle on hover */
+.sidenav-container::-webkit-scrollbar-thumb:hover {
+  background: #5da9e9;
+}
+.category-icon {
+  display: none;
+}
+.category-list > span {
+  display: none;
+}
+.category-value-abs {
+  display: none;
+}
+@media screen and (max-width: 400px) {
+  .sidenav-container {
+    height: 73px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+  .sidenav-container::-webkit-scrollbar {
+    display: none;
+  }
+  .category-list {
+    display: flex;
+    gap: 15px;
+    padding: 0px;
+    position: relative;
+  }
+  .category-list li {
+    min-width: 48px;
+    height: 48px;
+    padding-left: 0px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  }
+  .category-icon {
+    display: block;
+  }
+  .category-name-media {
+    display: none;
+  }
+  .category-value-abs {
+    position: absolute;
+    margin-top: 83px;
+    max-width: 53px;
+    text-overflow: ellipsis;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #b6bac3;
+    font-size: 12px;
+  }
+  .category-value-abs.selected {
+    color: #5da9e9;
+  }
+}

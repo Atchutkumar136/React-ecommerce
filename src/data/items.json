@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Banana 1ct",
+    "price": "$0.69",
+    "quantity": "18 oz",
+    "image": "/banana.jpg"
+  },
+  {
+    "title": "Strawberries",
+    "price": "$0.69",
+    "quantity": "1 lb",
+    "image": "/strawberry.jpg"
+  },
+  {
+    "title": "Yogurt",
+    "price": "$0.69",
+    "quantity": "18 oz",
+    "image": "/yogurt.jpg"
+  },
+  {
+    "title": "Blackberries",
+    "price": "$0.69",
+    "quantity": "1 lb",
+    "image": "/blueberry.jpg"
+  },
+  {
+    "title": "Banana 1ct",
+    "price": "$0.69",
+    "quantity": "18 oz",
+    "image": "/banana.jpg"
+  },
+  {
+    "title": "Strawberries",
+    "price": "$0.69",
+    "quantity": "1 lb",
+    "image": "/strawberry.jpg"
+  },
+  {
+    "title": "Yogurt",
+    "price": "$0.69",
+    "quantity": "18 oz",
+    "image": "/yogurt.jpg"
+  },
+  {
+    "title": "Blackberries",
+    "price": "$0.69",
+    "quantity": "1 lb",
+    "image": "/blueberry.jpg"
+  },
+  {
+    "title": "Banana 1ct",
+    "price": "$0.69",
+    "quantity": "18 oz",
+    "image": "/banana.jpg"
+  },
+  {
+    "title": "Strawberries",
+    "price": "$0.69",
+    "quantity": "1 lb",
+    "image": "/strawberry.jpg"
+  },
+  {
+    "title": "Yogurt",
+    "price": "$0.69",
+    "quantity": "18 oz",
+    "image": "/yogurt.jpg"
+  },
+  {
+    "title": "Blackberries",
+    "price": "$0.69",
+    "quantity": "1 lb",
+    "image": "/blueberry.jpg"
+  }
+]
